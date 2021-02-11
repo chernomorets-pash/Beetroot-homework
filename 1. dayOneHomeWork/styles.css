@@ -8,10 +8,86 @@ body {
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
     margin: 0;
     padding: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    color: #fff;
+    position: relative;
 
+}
+
+
+
+.content-grid {
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    background-color: rgba(64, 64, 64, 0.79);
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    background-image: url(./images/avatar.png);
+    background-size: cover;
+    position: relative;
+    bottom: 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #1CB5E0;
+}
+
+.middle-part {
+    margin: 0 15px;
+    font-size: medium;
+    font-size: 18px;
+}
+
+
+.change-lang img {
+    width: 50px;
+
+}
+
+
+.icon-part img {
+    width: 100px;
+}
+
+.icon-part {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .content-grid-back {
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+
+} */
+
+/* Part with cards in top of each other */
+
+
+.homework-card {
+    width: 500px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.564);
+    border-radius: 20px;
+    margin: 10px;
 
 }
